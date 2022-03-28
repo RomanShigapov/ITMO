@@ -1,9 +1,0 @@
-.root {
-  background-color: black;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  color: white;
-  font-family: 'inter', 'Arial', sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
