@@ -1,0 +1,9 @@
+.footer {
+
+}
+
+@media screen and (max-width: calc(3 * 282px + 2 * 17px - 1px + 16px)) {
+  .footer {
+
+  }
+}
