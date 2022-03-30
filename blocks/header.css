@@ -1,0 +1,16 @@
+.header{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  position: relative;
+}
+
+.header__menu-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header__menu {
+  display: none;
+}
