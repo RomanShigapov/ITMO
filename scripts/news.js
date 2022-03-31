@@ -1,17 +1,19 @@
-const swiper = new Swiper('.news', {
+const swiper = new Swiper('.news__swiper', {
   // Optional parameters
   direction: 'horizontal',
   loop: false,
 
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination',
+    el: '.news__pagination',
+    bulletClass: 'news__page-bullet',
+    bulletActiveClass: 'news__page-bullet_active'
   },
 
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.news__button_type_next',
+    prevEl: '.news__button_type_prev',
   },
 
   // Default parameters
@@ -32,8 +34,6 @@ const swiper = new Swiper('.news', {
       spaceBetween: 32,
       slidesOffsetBefore: 0,
       slidesOffsetAfter: 12,
-
     }
   }
-
 });
