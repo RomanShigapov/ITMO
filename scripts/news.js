@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.news', {
   // Optional parameters
   direction: 'horizontal',
   loop: false,
@@ -14,8 +14,6 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
 
-
-
   // Default parameters
   slidesPerView: 'auto',
   spaceBetween: 10,
@@ -25,14 +23,12 @@ const swiper = new Swiper('.swiper', {
   breakpoints: {
     // when window width is >= 768px
     768: {
-      // slidesPerView: 2,
       spaceBetween: 30,
       slidesOffsetBefore: 39,
       slidesOffsetAfter: 39,
     },
     // when window width is >= 1280px
     1280: {
-      // slidesPerView: 3,
       spaceBetween: 32,
       slidesOffsetBefore: 0,
       slidesOffsetAfter: 12,
