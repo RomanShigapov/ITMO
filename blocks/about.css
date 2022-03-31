@@ -68,7 +68,7 @@
 .about__subtitle {
   margin: 0;
   max-width: 907px;
-  margin-bottom: 32px;
+  margin-bottom: 17px;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -79,7 +79,7 @@
 
 @media (min-width: 768px) {
   .about__subtitle {
-    margin-bottom: 45px;
+    margin-bottom: 30px;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.1px;
