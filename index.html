@@ -8,8 +8,10 @@
     <meta name="keywords" content="ИТМО, магистратура, студенты, лаборатория" />
     <meta name="author" content="Group White-41" />
     <link rel="icon" href="#">
-    <link rel="stylesheet" href="./pages/index.css" />
+    <!-- Swiper CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="./vendor/fonts.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>ИТМО</title>
 </head>
 
@@ -44,11 +46,70 @@
       </div>
     </section>
 
+    <!-- About Us -->
+    <section class="about" id="about">
+      <div class="about__content">
+        <h2 class="about__title">Несколько слов о&nbsp;нас</h2>
+        <p class="about__subtitle">Национальный центр когнитивных разработок&nbsp;&mdash; центр национальной технологической инициативы (НТИ), получивший государственную поддержку по&nbsp;направлению &laquo;Технологии машинного обучения и&nbsp;когнитивные технологии&raquo;.</p>
+      </div>
+      <!-- News -->
+      <div class="news ">
+        <div class="news__swiper swiper">
+          <!-- Additional required wrapper -->
+          <ul class="news__list swiper-wrapper">
+            <!-- Slides -->
+            <li class="news-item swiper-slide">
+              <time class="news-item__timestamp" datetime="2021-07-05">Понедельник, 5&nbsp;июля 2021&nbsp;г.</time>
+              <h3 class="news-item__title">Знакомство с&nbsp;машинным обучением: студенты Евразийского национального ___</h3>
+              <p class="news-item__text">Университет ИТМО провел научно-исследовательскую стажировку для группы магистрантов из&nbsp;Евразийского университета имени Л.&nbsp;Н.&nbsp;Гумилева. Преподаватели в&nbsp;течение десяти дней рассказывали им&nbsp;об&nbsp;основах машинного обучения.</p>
+            </li>
+            <li class="news-item swiper-slide">
+              <time class="news-item__timestamp" datetime="2021-07-05">Понедельник, 5&nbsp;июля 2021&nbsp;г.</time>
+              <h3 class="news-item__title">Авторы робота-музыканта Роберта Роботецкого признаны лучшими новичками ___</h3>
+              <p class="news-item__text">Команда ИТМО стала лучшей на&nbsp;международном финале RoboCup-2021. Успех ребятам принес Роберт Роботецкий&nbsp;&mdash; робот-виртуоз, исполнивший знаменитый французский романс &laquo;Под небом Парижа&raquo;. В&nbsp;подготовке команды участвовали сотрудники лаборатории.</p>
+            </li>
+            <li class="news-item swiper-slide">
+              <time class="news-item__timestamp" datetime="2021-07-05">Понедельник, 5&nbsp;июля 2021&nbsp;г.</time>
+              <h3 class="news-item__title">Знакомство с&nbsp;машинным обучением: студенты Евразийского национального ___</h3>
+              <p class="news-item__text">Университет ИТМО провел научно-исследовательскую стажировку для группы магистрантов из&nbsp;Евразийского университета имени Л.&nbsp;Н.&nbsp;Гумилева. Преподаватели в&nbsp;течение десяти дней рассказывали им&nbsp;об&nbsp;основах машинного обучения.</p>
+            </li>
+            <li class="news-item swiper-slide">
+              <time class="news-item__timestamp" datetime="2021-07-05">Понедельник, 5&nbsp;июля 2021&nbsp;г.</time>
+              <h3 class="news-item__title">Авторы робота-музыканта Роберта Роботецкого признаны лучшими новичками ___</h3>
+              <p class="news-item__text">Команда ИТМО стала лучшей на&nbsp;международном финале RoboCup-2021. Успех ребятам принес Роберт Роботецкий&nbsp;&mdash; робот-виртуоз, исполнивший знаменитый французский романс &laquo;Под небом Парижа&raquo;. В&nbsp;подготовке команды участвовали сотрудники лаборатории.</p>
+            </li>
+            <li class="news-item swiper-slide">
+              <time class="news-item__timestamp" datetime="2021-07-05">Понедельник, 5&nbsp;июля 2021&nbsp;г.</time>
+              <h3 class="news-item__title">Знакомство с&nbsp;машинным обучением: студенты Евразийского национального ___</h3>
+              <p class="news-item__text">Университет ИТМО провел научно-исследовательскую стажировку для группы магистрантов из&nbsp;Евразийского университета имени Л.&nbsp;Н.&nbsp;Гумилева. Преподаватели в&nbsp;течение десяти дней рассказывали им&nbsp;об&nbsp;основах машинного обучения.</p>
+            </li>
+            <li class="news-item swiper-slide">
+              <time class="news-item__timestamp" datetime="2021-07-05">Понедельник, 5&nbsp;июля 2021&nbsp;г.</time>
+              <h3 class="news-item__title">Авторы робота-музыканта Роберта Роботецкого признаны лучшими новичками ___</h3>
+              <p class="news-item__text">Команда ИТМО стала лучшей на&nbsp;международном финале RoboCup-2021. Успех ребятам принес Роберт Роботецкий&nbsp;&mdash; робот-виртуоз, исполнивший знаменитый французский романс &laquo;Под небом Парижа&raquo;. В&nbsp;подготовке команды участвовали сотрудники лаборатории.</p>
+            </li>
+          </ul>
+          <!-- Pagination -->
+          <div class="news__pagination swiper-pagination"></div>
+        </div>
+        <!-- Navigation buttons -->
+        <div class="news__button news__button_type_prev swiper-button-prev"></div>
+        <div class="news__button news__button_type_next swiper-button-next"></div>
+      </div>
+    </section>
+
+
+
+
+
   </main>
 
   <footer></footer>
-
+  <!-- Swiper CDN -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <!-- Page Scripts -->
   <script src="./scripts/header.js"></script>
+  <script src="./scripts/news.js"></script>
 </body>
 
 </html>
