@@ -1,0 +1,135 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: #001337;
+  background-image: url(../images/intro/intro__background_size_m.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: 100% auto;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    padding-top: 58px;
+    padding-bottom: 120px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .intro {
+    padding-top: 92px;
+    padding-bottom: 124px;
+    background-image: url(../images/intro/intro__background_size_l.png);
+  }
+}
+
+
+.intro__content {
+  width: calc(100% - 2 * 16px);
+  max-width: 1110px;
+}
+
+@media (min-width: 768px) {
+  .intro__content {
+    width: calc(100% - 2 * 39px);
+  }
+}
+
+
+.intro__title {
+  margin: 0;
+  margin-bottom: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+  .intro__title {
+    max-width: 445px;
+    margin-bottom: 12px;
+    font-size: 54px;
+    line-height: 68px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .intro__title {
+    margin-left: 665px;
+  }
+}
+
+
+.intro__accent {
+  font-weight: 700;
+}
+
+
+.intro__subtitle {
+  margin: 0;
+  margin-bottom: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+  .intro__subtitle {
+    max-width: 445px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    line-height: 40px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .intro__subtitle {
+    margin-bottom: 50px;
+    margin-left: 665px;
+  }
+}
+
+
+.intro__button {
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  padding: 12px 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .intro__button {
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 330px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .intro__button {
+    margin-left: 665px;
+    max-width: 350px;
+  }
+}
