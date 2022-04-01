@@ -1,24 +1,35 @@
 const headerClass = 'header';
-const headerOpenedClass = 'header_opened';
+const headerContentClass = 'header__content';
+const headerOpenedClass = 'header__content_opened';
 const menuButtonClass = 'header__menu-button';
 const menuButtonDisabledClass = 'header__menu-button_disabled';
 const menuClass = 'header__menu';
 const menuOpenedClass = 'header__menu_opened';
+const menuLinkClass = 'header__menu-link';
 const closeButtonClass = 'header__close-button';
 
 const header = document.querySelector(`.${headerClass}`);
+const headerContent = header.querySelector(`.${headerContentClass}`);
 const menu = header.querySelector(`.${menuClass}`);
 const menuButton = header.querySelector(`.${menuButtonClass}`);
 const closeButton = header.querySelector(`.${closeButtonClass}`);
 
-menuButton.addEventListener('click', function () {
+function openMenu () {
   menuButton.classList.add(menuButtonDisabledClass);
-  header.classList.add(headerOpenedClass);
+  headerContent.classList.add(headerOpenedClass);
   menu.classList.add(menuOpenedClass);
-});
+}
 
-closeButton.addEventListener('click', function () {
+function closeMenu () {
   menuButton.classList.remove(menuButtonDisabledClass);
-  header.classList.remove(headerOpenedClass);
+  headerContent.classList.remove(headerOpenedClass);
   menu.classList.remove(menuOpenedClass);
-});
+}
+
+menuButton.addEventListener('click', openMenu);
+
+closeButton.addEventListener('click', closeMenu);
+
+menu.addEventListener('click', function (event) {
+  if (event.target.classList.contains(menuLinkClass)) closeMenu ();
+})

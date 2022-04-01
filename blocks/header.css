@@ -1,30 +1,40 @@
 .header{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000D26;
+  position: relative;
+}
+
+
+.header__content {
+  padding: 10px 0;
+  width: calc(100% - 2 * 16px);
+  max-width: 1110px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  background-color: #000D26;
-  padding: 10px 16px;
 }
 
 @media (min-width: 768px) {
-  .header {
+  .header__content {
+    width: calc(100% - 2 * 39px);
     padding-top: 14px;
     padding-bottom: 14px;
   }
 }
 
 @media (min-width: 1280px) {
-  .header {
+  .header__content {
     padding-top: 13px;
     padding-bottom: 13px;
+    justify-content: space-between;
   }
 }
 
-.header_opened {
+.header__content_opened {
   justify-content: left;
 }
-
 
 .header__menu-button {
   position: absolute;
@@ -79,32 +89,33 @@
   position: absolute;
   top: 100%;
   left: 0;
-  width: 0;
+  width: 100%;
   height: calc(100vh - 100%);
   background-color: #000D26;
-  transition: width .3s, visibility .3s;
+  transform: translateX(-100%);
+  transition: transform .3s, visibility .3s;
+  z-index: 2;
+}
+
+.header__menu_opened {
+  visibility: visible;
+  transform: none;
+}
+
+@media (min-width: 768px) {
+  .header__menu {
+    width: 330px;
+  }
 }
 
 @media (min-width: 1280px) {
   .header__menu {
     visibility: visible;
     position: static;
-    margin-left: 9.375%;
     width: auto;
     height: auto;
+    transform: none;
   }
-}
-
-.header__menu_opened {
-  visibility: visible;
-  width: 100%;
-}
-
-@media (min-width: 768px) {
-  .header__menu_opened {
-    width: 330px;
-  }
-
 }
 
 
@@ -126,16 +137,11 @@
 }
 
 
-.header__menu-item {
-
-}
-
-
 .header__menu-link {
   display: block;
   width: 100%;
   box-sizing: border-box;
-  padding: 15px 40px;
+  padding: 15px 16px;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
@@ -147,6 +153,14 @@
     box-shadow .3s,
     font-weight .3s,
     letter-spacing .3s;
+}
+
+@media (min-width: 768px) {
+  .header__menu-link {
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+
 }
 
 @media (min-width: 1280px) {
