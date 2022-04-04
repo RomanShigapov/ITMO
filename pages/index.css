@@ -9,8 +9,8 @@
 @import url(../blocks/intro.css);
 
 /* About */
-@import url(../blocks/about.css);
-@import url(../blocks/news.css);
+@import url(../blocks/section.css);
+@import url(../blocks/swiper.css);
 @import url(../blocks/news-item.css);
 
 /* Laboratory */

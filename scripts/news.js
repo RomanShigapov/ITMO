@@ -1,19 +1,19 @@
-const swiper = new Swiper('.news__swiper', {
+const swiper = new Swiper('.swiper', {
   // Optional parameters
   direction: 'horizontal',
   loop: false,
 
   // If we need pagination
   pagination: {
-    el: '.news__pagination',
-    bulletClass: 'news__page-bullet',
-    bulletActiveClass: 'news__page-bullet_active'
+    el: '.swiper__pagination',
+    bulletClass: 'swiper__page-bullet',
+    bulletActiveClass: 'swiper__page-bullet_active'
   },
 
   // Navigation arrows
   navigation: {
-    nextEl: '.news__button_type_next',
-    prevEl: '.news__button_type_prev',
+    nextEl: '.swiper__button_type_next',
+    prevEl: '.swiper__button_type_prev',
   },
 
   // Default parameters
