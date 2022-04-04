@@ -49,14 +49,14 @@
     </section>
 
     <!-- About Us -->
-    <section class="section" id="about">
+    <section class="section about" id="about">
       <div class="section__content">
         <h2 class="section__title">Несколько слов о&nbsp;нас</h2>
         <p class="section__subtitle">Национальный центр когнитивных разработок&nbsp;&mdash; центр национальной технологической инициативы (НТИ), получивший государственную поддержку по&nbsp;направлению &laquo;Технологии машинного обучения и&nbsp;когнитивные технологии&raquo;.</p>
       </div>
       <!-- News -->
       <div class="section__info">
-        <div class="swiper">
+        <div class="swiper news">
           <!-- Additional required wrapper -->
           <ul class="swiper__list swiper-wrapper">
             <!-- Slides -->
@@ -92,11 +92,11 @@
             </li>
           </ul>
           <!-- Pagination -->
-          <div class="swiper__pagination swiper-pagination"></div>
+          <div class="swiper__pagination swiper-pagination news__pagination"></div>
         </div>
         <!-- Navigation buttons -->
-        <div class="swiper__button swiper__button_type_prev swiper-button-prev"></div>
-        <div class="swiper__button swiper__button_type_next swiper-button-next"></div>
+        <div class="swiper__button swiper__button_type_prev swiper-button-prev news__button_type_prev"></div>
+        <div class="swiper__button swiper__button_type_next swiper-button-next news__button_type_next"></div>
       </div>
     </section>
 
@@ -121,8 +121,59 @@
     </section>
 
     <!-- Our team -->
-    <section class="team">
-      Team
+    <section class="section team" id="team">
+      <div class="section__content">
+        <h2 class="section__title">Наша команда</h2>
+      </div>
+      <!-- Persons -->
+      <div class="section__info">
+        <div class="swiper persons">
+          <!-- Additional required wrapper -->
+          <ul class="swiper__list swiper-wrapper">
+            <!-- Slides -->
+            <li class="person swiper-slide">
+              <img src="./images/team/photo__bobcov.png" alt="Бобцов" class="person__photo">
+              <h3 class="person__name">Бобцов Алексей&nbsp;Алексеевич</h3>
+              <p class="person__description">Директор, <span class="person__hidden-text">профессор, </span>ДТН</p>
+            </li>
+            <li class="person swiper-slide">
+              <img src="./images/team/photo__bobcov.png" alt="Бобцов" class="person__photo">
+              <h3 class="person__name">Бобцов Алексей&nbsp;Алексеевич</h3>
+              <p class="person__description">Директор, <span class="person__hidden-text">профессор, </span>ДТН</p>
+            </li>
+            <li class="person swiper-slide">
+              <img src="./images/team/photo__bobcov.png" alt="Бобцов" class="person__photo">
+              <h3 class="person__name">Бобцов Алексей&nbsp;Алексеевич</h3>
+              <p class="person__description">Директор, <span class="person__hidden-text">профессор, </span>ДТН</p>
+            </li>
+            <li class="person swiper-slide">
+              <img src="./images/team/photo__bobcov.png" alt="Бобцов" class="person__photo">
+              <h3 class="person__name">Бобцов Алексей&nbsp;Алексеевич</h3>
+              <p class="person__description">Директор, <span class="person__hidden-text">профессор, </span>ДТН</p>
+            </li>
+            <li class="person swiper-slide">
+              <img src="./images/team/photo__bobcov.png" alt="Бобцов" class="person__photo">
+              <h3 class="person__name">Бобцов Алексей&nbsp;Алексеевич</h3>
+              <p class="person__description">Директор, <span class="person__hidden-text">профессор, </span>ДТН</p>
+            </li>
+            <li class="person swiper-slide">
+              <img src="./images/team/photo__bobcov.png" alt="Бобцов" class="person__photo">
+              <h3 class="person__name">Бобцов Алексей&nbsp;Алексеевич</h3>
+              <p class="person__description">Директор, <span class="person__hidden-text">профессор, </span>ДТН</p>
+            </li>
+            <li class="person swiper-slide">
+              <img src="./images/team/photo__bobcov.png" alt="Бобцов" class="person__photo">
+              <h3 class="person__name">Бобцов Алексей&nbsp;Алексеевич</h3>
+              <p class="person__description">Директор, <span class="person__hidden-text">профессор, </span>ДТН</p>
+            </li>
+          </ul>
+          <!-- Pagination -->
+          <div class="persons__pagination swiper-pagination"></div>
+        </div>
+        <!-- Navigation buttons -->
+        <div class="swiper__button swiper__button_type_prev swiper-button-prev persons__button_type_prev"></div>
+        <div class="swiper__button swiper__button_type_next swiper-button-next persons__button_type_next"></div>
+      </div>
     </section>
 
     <!-- Partners -->
@@ -147,6 +198,7 @@
   <!-- Page Scripts -->
   <script src="./scripts/header.js"></script>
   <script src="./scripts/news.js"></script>
+  <script src="./scripts/team.js"></script>
 </body>
 
 </html>
