@@ -2,6 +2,10 @@
   padding-top: 15px;
 }
 
+.swiper_block_persons {
+  padding-top: 0;
+}
+
 
 .swiper__list {
   list-style: none;
