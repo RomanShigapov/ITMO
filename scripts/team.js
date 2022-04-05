@@ -1,24 +1,24 @@
-const swiper_block_news = new Swiper('.news', {
+const swiper_block_persons = new Swiper('.persons', {
   // Optional parameters
   direction: 'horizontal',
   loop: false,
 
   // If we need pagination
   pagination: {
-    el: '.news__pagination',
+    el: '.persons__pagination',
     bulletClass: 'swiper__page-bullet',
     bulletActiveClass: 'swiper__page-bullet_active'
   },
 
   // Navigation arrows
   navigation: {
-    nextEl: '.news__button_type_next',
-    prevEl: '.news__button_type_prev',
+    nextEl: '.persons__button_type_next',
+    prevEl: '.persons__button_type_prev',
   },
 
   // Default parameters
   slidesPerView: 'auto',
-  spaceBetween: 10,
+  spaceBetween: 8,
   slidesOffsetBefore: 16,
   slidesOffsetAfter: 16,
   // Responsive breakpoints
@@ -31,9 +31,9 @@ const swiper_block_news = new Swiper('.news', {
     },
     // when window width is >= 1280px
     1280: {
-      spaceBetween: 32,
+      spaceBetween: 30,
       slidesOffsetBefore: 0,
-      slidesOffsetAfter: 12,
+      slidesOffsetAfter: 0,
     }
   }
 });

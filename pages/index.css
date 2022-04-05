@@ -9,6 +9,30 @@
 @import url(../blocks/intro.css);
 
 /* About */
-@import url(../blocks/about.css);
-@import url(../blocks/news.css);
+@import url(../blocks/section.css);
+@import url(../blocks/swiper.css);
 @import url(../blocks/news-item.css);
+
+/* Laboratory */
+@import url(../blocks/lab.css);
+
+/* Projects */
+@import url(../blocks/projects.css);
+
+/* Education */
+@import url(../blocks/education.css);
+
+/* Publications */
+@import url(../blocks/publications.css);
+
+/* Our team */
+@import url(../blocks/person.css);
+
+/* Partners */
+@import url(../blocks/partners.css);
+
+/* Contact */
+@import url(../blocks/contact.css);
+
+/* Footer */
+@import url(../blocks/footer.css);
