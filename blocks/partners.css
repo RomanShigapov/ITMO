@@ -1,4 +1,44 @@
-.partners {
-  min-height: 200px;
-  outline: 1px solid tomato;
+.partners__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 23px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+  column-gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .partners__list {
+    margin-top: 30px;
+    row-gap: 30px;
+    column-gap: 70px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .partners__list {
+    margin-top: 70px;
+    row-gap: 50px;
+  }
+}
+
+
+.partners__logo {
+  height: 20px;
+  object-fit: contain;
+}
+
+@media (min-width: 768px) {
+  .partners__logo {
+    height: 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .partners__logo {
+    height: 48px;
+  }
 }
