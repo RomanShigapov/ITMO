@@ -5,6 +5,7 @@
   padding: 10px;
   width: calc( (100% - 2 * 16px - 8px) /2 );
   max-width: 140px;
+  box-shadow: 0px 2.38298px 11.9149px rgba(1, 54, 157, 0.15);
 }
 
 @media (min-width: 768px) {
@@ -12,6 +13,8 @@
     padding: 20px;
     width: calc( (100% - 2 * 39px - 30px) /3 );
     max-width: 210px;
+    box-shadow: 0px 3.29412px 16.4706px rgba(1, 54, 157, 0.15);
+    border-radius: 8px;
   }
 }
 
@@ -19,6 +22,8 @@
   .person {
     padding-bottom: 30px;
     max-width: 255px;
+    box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+    border-radius: 10px;
   }
 }
 
