@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+
 @import url(../blocks/root.css);
 
 /* Header */
@@ -32,7 +33,7 @@
 @import url(../blocks/partners.css);
 
 /* Contact */
-@import url(../blocks/contact.css);
+@import url(../blocks/contact-form.css);
 
 /* Footer */
 @import url(../blocks/footer.css);
