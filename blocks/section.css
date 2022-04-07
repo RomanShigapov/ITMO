@@ -23,6 +23,10 @@
   background-color: #E0F0FF;
 }
 
+.section_style_accent {
+  background-color: #009FAC;
+}
+
 
 .section_block_team {
   margin-bottom: -197px;
@@ -54,6 +58,25 @@
 @media (min-width: 1280px) {
   .section_block_partners {
     padding-top: 385px;
+  }
+}
+
+.section_block_contact {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .section_block_contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .section_block_contact {
+    padding-top: 80px;
+    padding-bottom: 35px;
   }
 }
 
