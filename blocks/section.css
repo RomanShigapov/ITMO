@@ -80,6 +80,28 @@
   }
 }
 
+.section_block_footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .section_block_contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .section_block_contact {
+    padding-top: 80px;
+    padding-bottom: 35px;
+  }
+}
+
+
+
+
 
 .section__content {
   width: calc(100% - 2 * 16px);
